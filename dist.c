@@ -4,7 +4,9 @@
 #include <direct.h>
 #include "./tcc/sha1/sha1.h"
 
-// tcc .\utils_bin\tcc\sha1\sha1.c -run .\compile.c DAY_VER [COMMENT]
+
+// Makefile call example:
+// ./utils_bin/tcc/tcc.exe ./utils_bin/tcc/sha1/sha1.c -run ./compile.c DAY_VER [COMMENT]
 
 // 项目名
 const char* project = "RLF73009";
