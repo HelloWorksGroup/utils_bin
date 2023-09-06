@@ -12,6 +12,16 @@
 
 主要用于辅助使用 `Keil IDE` 的开发。这个工具提供了一种自动化的方法来修改 `Keil` 的工程文件，使其能够支持宏路径。
 
+> - 将 `KeilUtils.exe` 放置在 `uvprojx` 后缀的工程文件相同的目录
+> - 运行 `KeilUtils.exe init` 自动搜索工程并初始化配置
+> - 运行 `KeilUtils.exe set MARCO_NAME PATH` 将路径 PATH 替换为宏 MARCO_NAME
+> - 运行 `KeilUtils.exe list` 列举配置
+> - 运行 `KeilUtils.exe path2macro` 将路径替换为宏
+> - 运行 `KeilUtils.exe macro2path` 将宏替换回路径
+> - 运行 `KeilUtils.exe remove MARCO_NAME` 删除配置的宏
+> - 运行 `KeilUtils.exe replace foo bar` 将工程中的字符串 `foo` 替换为 `bar`
+
+
 ## p2a(picture-to-array)
 
 来源：https://github.com/Nigh/picture-to-array
