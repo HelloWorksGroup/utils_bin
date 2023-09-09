@@ -56,7 +56,7 @@ int main(int argc, char* argv[]) {
 	} else {
 		sprintf(comment_str, "");
 	}
-	sprintf(dist_path, "./dist/%s-%s-[%s]%s.hex",
+	sprintf(dist_path, "./dist/%s-%s-[%s]%s.%s",
 			project,
 			day_version,
 			hash_str,
